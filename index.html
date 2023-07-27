@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>java Script</title>
+    
+     <link rel="icon" href="img/...." type="image/png">
+    <!-- css link -->
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+    <!-- text change -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to change the text</h1>
+
+      <button type="button" class="btn btn-success my-2" onclick="textChange()">Text Change</button>
+      <h2 id="t_h1">Hello World!</h2>
+    </div>
+
+    <!--Show Date -->
+    <div class="container">
+      <h2>Click the button to show date </h2>
+      <button type="button" class="btn btn-primary" onclick="displayDate()">Show Date</button>
+      <h2 id="d_h2">Date</h2>
+    </div>
+
+    <!-- variable ex -->
+    <div class="container">
+      <h2>Click the button to repeat the message </h2>
+      <button type="button" class="btn btn-success" onclick="dataRepeat()">Repeat massage</button>
+      <h2 id="dr"></h2>
+    </div>
+
+    <!-- font color -->
+    <div class="container">
+      <h1>Click the button to fontsize </h1>
+      <button type="button" class="btn btn-success" onclick="fontSize()">color</button>
+      <h2 id="fc">Lorem ipsum doller sit.</h2>
+    </div>
+
+
+    <!-- fontsize -->
+    <div class="container">
+      <h1>Click the button to fontsize </h1>
+      <button type="button" class="btn btn-success" onclick="fontSize()">fontSize</button>
+      <h2 id="fs">Lorem ipsum doller sit.</h2>
+    </div>
+    
+     <!--bulb on off-->
+    <div class="container">
+      <h2>click the button to on/off light</h2>
+
+      <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb On</button>
+
+      <img id="bulb" src="images/off.gif" alt="">
+
+      <button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb Off</button>
+    </div>
+
+
+    <!-- output start -->
+     <div class="container">
+       <h2>click the button to output</h2>
+
+       <button type="button" class="btn btn-success" onclick="outPut()">result</button>
+       <h2 id="op"></h2>
+     </div>
+
+
+     <!-- output start -->
+     <div class="container">
+       <p id="opp" onclick="outPut()"></p>
+     </div>
+
+
+     <!-- print -->
+     <div class="container">
+     <p>Click the button to print the current page.</p>
+
+     <button class="btn btn-success" onclick="window.print()">Print this page</button>
+     </div>
+
+
+    <!-- JavaScript Statements -->
+     <div class="container">
+      <p>
+        The best place to break a code line is after an operator or a comma.
+      </p>
+
+      <p id="demo"></p>
+
+      <script>
+        document.getElementById("demo").innerHTML = "Hello Dolly!";
+      </script>
+      </div>
+
+     
+
+  
+    <!-- js link -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
